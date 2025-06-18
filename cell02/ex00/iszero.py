@@ -1,5 +1,5 @@
-number = input()
-number = int(number)
-if number == 0
-else
- print("this number is different from zore.")
+value = int(input())
+if value == 0:
+	print("This number is equal to zero")
+else:
+	print("This number is different from zero")

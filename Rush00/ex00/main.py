@@ -1,6 +1,14 @@
-import sys
+from checkmate import is_in_check
 
-if len(sys.argv) == 2:
-    print(sys.argv[1].lower())
-else:
-    print("none")
+board = [
+    "........",
+    "........",
+    "........",
+    "...K....",
+    "........",
+    "........",
+    "........",
+    "........"
+]
+
+is_in_check(board)
